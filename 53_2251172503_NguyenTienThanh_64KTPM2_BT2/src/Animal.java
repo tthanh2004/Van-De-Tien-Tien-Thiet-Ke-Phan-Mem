@@ -1,5 +1,3 @@
-public class Animal {
-    public String MakeSound(){
-        return "Animal sound";
-    }
+public abstract class Animal {
+    public abstract String MakeSound();
 }
