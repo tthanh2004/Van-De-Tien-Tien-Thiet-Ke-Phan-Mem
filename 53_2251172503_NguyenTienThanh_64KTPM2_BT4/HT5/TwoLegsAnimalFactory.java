@@ -12,7 +12,7 @@ import java.util.Random;
  */
 public class TwoLegsAnimalFactory implements AnimalFactory{
     @Override
-    public Animal createAnimal(){
+    public TwoLegsAnimal createAnimal(){
         Random random = new Random();
         int type = random.nextInt(2);
         if (type == 0) {

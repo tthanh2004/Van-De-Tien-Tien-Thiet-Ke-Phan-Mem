@@ -13,7 +13,7 @@ import java.util.Random;
 public class FourLegsAnimalFactory implements AnimalFactory{
 
     @Override
-    public Animal createAnimal(){
+    public FourLegsAnimal createAnimal(){
         Random random = new Random();
         int type = random.nextInt(2); // 0 hoặc 1
         if (type == 0) {

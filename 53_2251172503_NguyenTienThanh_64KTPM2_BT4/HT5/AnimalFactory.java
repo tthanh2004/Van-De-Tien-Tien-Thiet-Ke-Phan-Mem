@@ -10,4 +10,6 @@ package com.mycompany.mavenproject1;
  */
 public interface AnimalFactory {
     Animal createAnimal();
+    FourLegsAnimal createFourLegsAnimal();
+    TwoLegsAnimal createTwoLegsAnimal();
 }
